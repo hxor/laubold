@@ -2,14 +2,11 @@
 <div class="row">
   <div class="col-sm-12">
       <div class="btn-group pull-right m-t-15">
-          <button type="button" class="btn btn-default dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-expanded="false">Settings <span class="m-l-5"><i class="fa fa-cog"></i></span></button>
-          <ul class="dropdown-menu drop-menu-right" role="menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li class="divider"></li>
-              <li><a href="#">Separated link</a></li>
-          </ul>
+          <a href="{{ empty($data['0']) ? '#' : $data['0']  }}">
+            <button type="button" class="btn btn-default waves-effect waves-light">
+              Back <span class="m-l-5"><i class="fa fa-arrow-left"></i></span>
+            </button>
+          </a>
       </div>
 
     <h4 class="page-title">{{ empty($data['page-title']) ? 'Blank Page' : $data['page-title']  }}</h4>

@@ -24,6 +24,7 @@
 				@yield('styles')
 
 				<link href="{{ asset('back/plugins/sweetalert/sweetalert.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ asset('back/plugins/lightbox/css/lightbox.min.css') }}" rel="stylesheet" type="text/css"/>
 
         <!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -97,10 +98,11 @@
     <script src="{{ asset('back/js/jquery.scrollTo.min.js') }}"></script>
 
     <script src="{{ asset('back/plugins/peity/jquery.peity.min.js') }}"></script>
-    <script src="{{ asset('back/plugins/jquery-sparkline/jquery.sparkline.min.js') }}"></script>    
+    <script src="{{ asset('back/plugins/jquery-sparkline/jquery.sparkline.min.js') }}"></script>
     <script src="{{ asset('back/pages/jquery.dashboard_3.js') }}"></script>
 
     <script src="{{ asset('back/plugins/sweetalert/sweetalert.min.js') }}"></script>
+    <script src="{{ asset('back/plugins/lightbox/js/lightbox.min.js') }}"></script>
 
     <script src="{{ asset('back/js/jquery.core.js') }}"></script>
     <script src="{{ asset('back/js/jquery.app.js') }}"></script>

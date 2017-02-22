@@ -6,8 +6,9 @@
 
               <li class="text-muted menu-title">Navigation</li>
                   <li>
-                    <a href="/backend" class="waves-effect"><i class="ti-home"></i> <span> Dashboard </span> </a>
+                    <a href="{{ route('admin') }}" class="waves-effect"><i class="ti-home"></i> <span> Dashboard </span> </a>
                   </li>
+                  <li><a href="{{ route('admin.gallery.index') }}" class="waves-effect"><i class="ti-gallery"></i><span> Gallery </span></a></li>
 
                   <li class="text-muted menu-title">Settings</li>
                   <li>
@@ -18,7 +19,7 @@
                         </ul>
                     </li>
                   </li>
-                
+
             </ul>
             <div class="clearfix"></div>
         </div>
