@@ -68,7 +68,7 @@
         </div> <!-- content -->
 
         <footer class="footer">
-            © 2016. All rights reserved.
+            © {{ date('Y') }}. Develop by <a href="https://facebook.com/O1O1OO11O">Hakim.</a> All rights reserved.
         </footer>
 
       </div>
