@@ -170,6 +170,7 @@ return [
           Yajra\Datatables\DatatablesServiceProvider::class,
           Codecourse\Notify\NotifyServiceProvider::class,
           Intervention\Image\ImageServiceProvider::class,
+          Unisharp\Laravelfilemanager\LaravelFilemanagerServiceProvider::class,
 
         //
 
